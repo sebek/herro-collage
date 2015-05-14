@@ -7,7 +7,11 @@
     "gulp": "^3.8.11"
   },
   "devDependencies": {
-    "bower": "^1.4.1"
+    "bower": "^1.4.1",
+    "gulp-autoprefixer": "^2.2.0",
+    "gulp-less": "^3.0.3",
+    "gulp-watch": "^4.2.4",
+    "less": "^2.5.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
