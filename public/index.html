@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>herro-collage</title>
+
+  <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+
+
+</head>
+<body>
+
+<div id="herro-collage-app">
+
+  <div class="container-fluid top-container">
+    <div class="col-xs-12 top">
+      <div class="col-xs-12 search">
+        <input type="text" class="input col-xs-12" placeholder="search for gifs"
+        v-model="search" v-on="keydown: addImage">
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container-fluid">
+    <div class="images">
+      <div v-repeat="image : images" class="image" v-on="click: removeImage(image)">
+        <img src="http://media2.giphy.com/media/{{ image.imageId }}/200.gif">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script src="js/all.js"></script>
+
+</body>
+</html>
