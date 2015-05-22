@@ -1,5 +1,5 @@
 .top-container {
-  background: #4bd19d;
+  background: #333333;
 }
 .top {
   padding: 15px;
@@ -11,45 +11,38 @@
   color: #313930;
 }
 .top .search {
-  text-align: right;
+  text-align: center;
 }
 .top .search input {
   color: #EEF0F2;
   border: 0;
-  text-align: right;
+  text-align: center;
   background: transparent;
 }
 .top .search input::-webkit-input-placeholder {
-  color: #EEF0F2;
+  color: #fff;
 }
 .top .search input::-moz-placeholder {
-  color: #EEF0F2;
+  color: #fff;
 }
 .top .search input:-ms-input-placeholder {
-  color: #EEF0F2;
+  color: #fff;
 }
 .top .search input::placeholder {
-  color: #EEF0F2;
+  color: #fff;
 }
 .top .search input:focus {
   outline: none;
 }
-.card .header {
-  font-size: 2.0rem;
-  color: #313930;
-  border-bottom: 2px solid #2BBF87;
-  padding: 8px;
-  font-family: 'Montserrat', sans-serif;
-}
-.card .body {
-  padding: 15px;
+.images .image {
+  float: left;
 }
 html {
   font-size: 62.5%;
 }
 body {
-  background: #88E1BE;
+  background: #151515;
 }
-.container {
-  margin-top: 10px;
+.container-fluid {
+  padding: 0;
 }
